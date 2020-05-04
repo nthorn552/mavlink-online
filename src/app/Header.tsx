@@ -10,17 +10,7 @@ export default class HeaderAppBar extends React.Component {
     render() {
         return (
             <div>
-                <Drawer>
-                    <MenuItem> <a href="/">Home </a></MenuItem>
-                    <MenuItem> <a href="/services">Services </a></MenuItem>
-                    <MenuItem> <a href="/about">About </a></MenuItem>
-                    <MenuItem> <a href="/contact">Contact </a></MenuItem>
-                    <MenuItem> <a href="/FAQ">FAQ </a></MenuItem>
-                </Drawer>
-                <AppBar
-                    title="My React App"
-                    iconClassNameRight="muidocs-icon-navigation-expand-more">
-                </AppBar>
+                <AppBar title="MAVLink Online" />
             </div>
         );
     };
